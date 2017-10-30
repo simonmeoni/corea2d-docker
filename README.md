@@ -1,5 +1,5 @@
-# Flask-visualizer docker
+# corea2d-indexer docker
 execute the following command : 
 
-1. `sudo docker build -t visualizer .`
-2. `sudo docker run -p 80:8000 -t visualizer`
+1. `sudo docker build -t indexer .`
+2. `sudo docker run -d --name=indexer -p 8888:3000 indexer`
